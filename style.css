@@ -236,14 +236,14 @@ span {
     width: 100%;
     height: 100%;
 }
-#contact-us {
+#div-sec {
     display: inline-block;
     align-items: start;
     margin:50px 150px;
     width: 600px;
     
 }
-#contact-us2 {
+#div-sec2 {
     margin: auto;
     width: fit-content;
 }
