@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    background-color: #202020;
+    background-color: #ffffff;
 }
 header {
     display: flex;
@@ -120,3 +120,136 @@ span {
 #propaganda-stream p {
     margin-right: 16px;
 }
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: #202020;
+}
+#avengers-section{
+    position: relative;
+}
+#avengers {
+    margin-top: 130px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#section-comics {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-comics {
+    display: flex;
+    align-items: center;
+    margin-top:430px;
+    padding-bottom: 60px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 1300px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    border-bottom: #6b6b6b 1px solid;
+}
+#caracthers {
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+}
+#homem-aranha {
+    height: 350px;
+    box-shadow: #151515 9px 9px 7px;
+}
+#viuvanegra {
+    box-shadow: #151515 9px 9px 7px;
+    margin-left: 20px;
+    height: 350px;
+}
+#ironman {
+    box-shadow: #151515 9px 9px 7px;
+    margin-left: 20px;
+    height: 350px;
+}
+#ghostrider {
+    box-shadow: #151515 9px 9px 7px;
+    margin-left: 20px;
+    height: 350px;
+}
+#wolverine {
+    box-shadow: #151515 9px 9px 7px;
+    margin-left: 20px;
+    height: 350px;
+}
+#hr-div {
+    width: 800px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+.nome1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 0px;
+    bottom: 130px;
+    position: relative;
+    width: fit-content;
+}
+.nome2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 260px;
+    bottom: 95px;
+    position: relative;
+    width: fit-content;
+}
+.nome3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 520px;
+    bottom: 60px;
+    position: relative;
+    width: fit-content;
+}
+.nome4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 775px;
+    bottom: 25px;
+    position: relative;
+    width: fit-content;
+}
+.nome5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 1035px;
+    top: 12px;
+    position: relative;
+    width: fit-content;
+}
+#section2 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    margin-top: 450px;
+    width: 100%;
+    height: 100%;
+}
+#contact-us {
+    display: inline-block;
+    align-items: start;
+    margin:50px 150px;
+    width: 600px;
+    
+}
+#contact-us2 {
+    margin: auto;
+    width: fit-content;
+}
+#psylock {
+    display: inline-block;
+    width: fit-content;
+}
+
+
