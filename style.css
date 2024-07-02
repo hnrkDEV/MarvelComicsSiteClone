@@ -74,12 +74,6 @@ header {
 span {
     font-size: 12px;
 }
-#header-lupa {
-    position: absolute;
-    right: 300px;
-    border-right: 1px solid #3d3d3d;
-    padding: 14px 16px;
-}
 #menu-nav {
     display: flex;
     text-align: center;
@@ -121,18 +115,19 @@ span {
     margin-right: 16px;
 }
 #cabecalho {
-    position: fixed;
     width: 100%;
     background-color: #202020;
 }
 #avengers-section{
     position: relative;
 }
-#avengers {
-    margin-top: 130px;
-    object-fit: cover;
-    height: 100%;
+#banner-avengers {
+    background-image: url(./imagens/1_zPu_FUbvUEWBtUZ-8o2HWQ.jpg);
     width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: unset;
 }
 #section-comics {
     margin: 0;
@@ -145,19 +140,18 @@ span {
 #div-comics {
     display: flex;
     align-items: center;
-    margin-top:430px;
+    margin-top:1000px;
+    padding-top: 20px;
     padding-bottom: 60px;
-    position: absolute;
     background-color: rgb(255, 255, 255);
     height: 400px;
-    width: 1300px;
+    width: 100px;
     justify-content: space-evenly;
     flex-grow: 1;
     border-bottom: #6b6b6b 1px solid;
 }
 #caracthers {
     margin: auto;
-    position: absolute;
     top: 20px;
     bottom: 0;
 }
@@ -228,28 +222,56 @@ span {
     position: relative;
     width: fit-content;
 }
-#section2 {
+#imagensheros {
+    margin-top: 50px;
+}
+.psylock {
+    box-shadow: #151515 9px 9px 7px;
+    cursor: pointer;
+    width: 300px;
+    height: 450px;
+    margin-left: 15px;
+}
+.psylock1 {
+    box-shadow: #151515 9px 9px 7px;
+    cursor: pointer;
+    width: 300px;
+    height: 450px;
+}
+#contents {
+    margin-top: 0px;
     display: flex;
-    color: rgb(0, 0, 0);
-    background-color: rgb(245, 245, 245);
-    margin-top: 450px;
+    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
-    height: 100%;
+    padding-bottom: 100px;
 }
-#div-sec {
-    display: inline-block;
-    align-items: start;
-    margin:50px 150px;
-    width: 600px;
-    
+.moviesdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
-#div-sec2 {
-    margin: auto;
-    width: fit-content;
+.moviestitle {
+     font-size: 50px;
+     color: #202020;
+     letter-spacing: 5px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: lighter;
+     text-transform: uppercase;
+     max-width: fit-content;
+     height: fit-content;
 }
-#psylock {
-    display: inline-block;
-    width: fit-content;
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #151515;
 }
-
-
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
