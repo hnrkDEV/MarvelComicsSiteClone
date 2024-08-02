@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    display: flex;
+}
+#bgimg {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 102vh;
+}
+.maindiv {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./signupimg/54340-3840x2160-desktop-4k-marvel-heroes-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(1px);
+}
+.maindiv2 {
+    display: flexbox;
+    background-color: rgba(34, 71, 172, 0.6);
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.maindiv3 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: hsl(0, 0%, 0%);
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 20px;
+    width: 250px;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 500;
+}
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+
+}
+button:not(:hover) { 
+    transition: 0.4s;
+
+}
+p {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+a{
+    text-decoration: underline;
+    color: black;
+}
